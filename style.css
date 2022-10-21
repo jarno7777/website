@@ -1,0 +1,108 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.Home{
+    height: 100px;
+    width: 100%;
+    background-color: #00a9a3;
+    display: flex; 
+}
+.Logo{
+    width: 175px;
+    height: 50px;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(80, 81, 1);
+  }
+
+body{
+  background-image: url("_X3A9532.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 140px;
+  background-position-x: 0px;
+}
+
+
+.Photo1{
+  background-color: rgb(119, 118, 118);
+  width: 450px;
+  height: 500px;
+  margin-left: 7.5%;
+  margin-top: 2.5%;
+  border-radius: 45px;
+  border: 5px black;
+  outline-style: solid;
+  outline-color: rgb(0, 0, 0);
+  outline-width: thick;
+  display: flex;
+  
+}
+.Textbox{
+  width: 450px;
+  height: 500px;
+  border-radius: 20%;
+  background-color: rgb(168, 247, 227);
+  margin-left: 60%;
+  margin-top: -34%;
+  border: 5px black;
+  outline-style: solid;
+  outline-color: rgb(0, 0, 0);
+  outline-width: thick;
+  position: relative;
+  
+}
+.forgotthename{
+  height: 25px;
+  width: 100%;
+  margin-top: 5%;
+  background-color: #00a9a3;
+  display: flex;
+}
+.Textbox .paragraph{
+  text-align: center;
+}
+
+.Textbox .headtext{
+  padding-top: 2em;
+  text-align: center;
+
+}
+
+.Photo2{
+  background-color: rgb(119, 118, 118);
+  width: 800px;
+  height: 800px;
+  margin-left: 7.5%;
+  margin-top: 2.5%;
+  border-radius: 45px;
+  border: 5px black;
+  outline-style: solid;
+  outline-color: rgb(0, 0, 0);
+  outline-width: thick;
+  display: flex;
+  background-image: url("hoornbeeck-college-utrechtseweg-230-amersfoort.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  background-position-x: -100px;
+
+
+}
